@@ -469,7 +469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/coindesk.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -959,6 +959,28 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Hotels Section
 --------------------------------------------------------------*/
 
+#hotels .hotels-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #0e1b4d;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #f82249;
+}
+
+#hotels .hotels-btn:hover {
+  background: #f82249;
+  color: #fff;
+}
+
 #hotels {
   padding: 60px 0;
 }
@@ -1195,7 +1217,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #f82249;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1204,7 +1225,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  background: #fff;
 }
 
 /*--------------------------------------------------------------
