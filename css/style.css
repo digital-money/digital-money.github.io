@@ -140,6 +140,10 @@ h6 {
   background-color: #f6f7fd;
 }
 
+.section-with-bg-hotels {
+  background-color: #FFF;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -986,7 +990,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #hotels .hotel {
-  border: 1px solid #e0e5fa;
+  /* border: 1px solid #e0e5fa; */
   background: #fff;
   margin-bottom: 30px;
 }
@@ -1030,6 +1034,88 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #hotels p {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  color: #060c22;
+  font-style: italic;
+  font-size: 15px;
+}
+
+/*--------------------------------------------------------------
+# Moedas Section
+--------------------------------------------------------------*/
+
+#moedas .moedas-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #0e1b4d;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #f82249;
+}
+
+#moedas .moedas-btn:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+#moedas {
+  padding: 60px 0;
+}
+
+#moedas .moeda {
+  /* border: 1px solid #e0e5fa; */
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+#moedas .moeda:hover .moeda-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#moedas .moeda-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#moedas .moeda-img img {
+  transition: 0.3s ease-in-out;
+}
+
+#moedas h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+}
+
+#moedas a {
+  color: #152b79;
+}
+
+#moedas a:hover {
+  color: #f82249;
+}
+
+#moedas .stars {
+  padding: 0 20px;
+  margin-bottom: 5px;
+}
+
+#moedas .stars i {
+  color: #ffc31d;
+}
+
+#moedas p {
   padding: 0 20px;
   margin-bottom: 20px;
   color: #060c22;
